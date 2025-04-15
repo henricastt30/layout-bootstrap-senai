@@ -1,14 +1,25 @@
 :root{
-    --primary-color: #4caf4f;
+    --primary-color: #4CAF4F;
 }
 
 .green-btn{
     background: var(--primary-color);
-    color: #fff;
+    color: #FFF;
     font-weight: 400;
 }
+.green-btn:hover,.green-btn:focus{
+    background: #38853b;
+    color: #FFF;
+}
 
-.green-btn:hover, .green-btn:focus{
-    background-color: #38853b;
-    color: #fff;
+.green-text{
+    color: var(--primary-color);
+}
+
+.tesla, .big-numbers{
+    background-color: #F5F7FA;
+}
+
+.tesla .space-margin-bottom{
+    margin-bottom: 55px;
 }
